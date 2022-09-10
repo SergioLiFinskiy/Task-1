@@ -1,0 +1,59 @@
+section {
+    width: 500px;
+    margin: 20px auto;
+    padding: 0 auto;
+    border: 3px double black;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.about_me {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 auto;
+}
+.about-me_foto > img {
+    height: 250px;
+}
+.about-me_info {
+    margin: 0 10px;
+}
+.about-me_info_parts {
+    margin: 0 0 10px 0;
+}
+.about-me_info_parts_title {
+    font-weight: bold;
+}
+.spending-time-for-learning > table {
+    margin: 0 auto;
+    width: max-content;
+}
+.my-completed-courses > table {
+    text-align: center;
+    margin: 0 auto;
+    width: max-content;
+}
+.my-completed-courses > table > th {
+    border-bottom: 1px double solid black;
+}
+.contacts_networks {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.contacts_networks_page_logo > img{
+    width: 40px;
+    height: 40px;
+}
+
+.contacts_networks_page {
+    text-decoration: none;
+}
